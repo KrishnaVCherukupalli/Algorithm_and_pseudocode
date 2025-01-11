@@ -12,15 +12,108 @@ step 7: remove 1 apple, 20 seedles green grapes, 5 strawberries from the circula
 step 8: remove the water by holding the bowl and tilting it at 60 degrees near the tap.
 step 9: Take a wooden cutting board with the dimensions of 30cms in length, 40cms in width and 2cms in height and place it on the desk.
 step 10: take the knife in hand and place an apple on the chopping board. 
-step 11: cut the apple with  holding the knife at 20 degrees  with 9.81 Newtons at 20 degrees with force of  slicing the apple into 8 pieces and place those pieces in the bowl.
-step 12: cut the 20 grapes with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 40 pieces and place them in the bowl.
-step 13: cut the 5 strawberries with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 10 pieces and place them in the bowl.
+step 11: cut the apple with  holding the knife at 20 degrees  with 9.81 Newtons at 20 degrees with force of  slicing the apple into 8 
+pieces and place those pieces in the bowl.
+step 12: cut the 20 grapes with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 40 pieces and 
+place them in the bowl.
+step 13: cut the 5 strawberries with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 10 pieces
+ and place them in the bowl.
 step 14: take the salt shaker in hand and sprinkle it over the chopped fruits 10 times to get 2 grams of salt.
-step 15: take the masala shaker in hand and sprinkle it over the chopped fruits 15 times to get 3 grams of salt.
+step 15: take the masala shaker in hand and sprinkle it over the chopped fruits 10 times to get 3 grams of salt.
 step 16: take the spoon in hand and place it in the bowl 
-step 17: mix the fruits with moving the spoon in circular motion with the speed 0.5 metres per second to complete the mixing in 20 seconds.
+step 17: mix the fruits with moving the spoon in circular motion with the speed 0.5 metres per second to complete the mixing in 20 
+seconds.
 step 18: take a small bowl with radius of 7.5 cms and with help of spoon transfer the salad into small bowl.
 step 19: serve it
 
 
 
+Pseudo Code:
+
+#step1
+#prepare the bowl
+bowl_diameter = 30
+print(f"Take a bowl which is circle shaped and has the diameter of {bowl_diameter} cms.")
+
+#step2
+#Open the tap
+for i in range(5):
+    print("Rotate tap 180 degrees anti clockwise to open water")
+   
+#step3
+pressure = 807.45
+fill_time = 5 # in seconds
+fill_quantity = 500 # in millilitres
+print(f" place the bowl under the running tap with the {pressure} Pa for {fill_time} seconds and fill {fill_quantity} millilitres of 
+water")
+
+#step4
+#close the tap
+for i in range(5):
+    print("Rotate tap 180 degrees clockwise to close water")
+    
+#step5 & 6
+apple_weight = 120 #grams
+apple_count = 1
+grapes_count = 20
+strawberries_count = 5
+print(f"take {apple_count} grams of apple, {grapes_count} seedless grapes, {strawberries_count} strawberries and add them into {
+bowl_diameter} cms diameter of bowl")
+
+#step7&8
+print(f"remove {apple_count} grams of apple, {grapes_count} seedless grapes, {strawberries_count} strawberries from the bowl")
+
+degree_of_tilt = 60
+print(f"remove the water by holding the bowl and tilting it at {degree_of_tilt} degrees near the tap")
+
+#step 9&10
+
+cutting_board_list = [30,40,2]
+print(f" Take a wooden cutting board with the dimensions of {cutting_board_list[0]}X{cutting_board_list[1]}X{cutting_board_list[2]} in length, breadth and height and place it on desk")
+print(f"take the knife in hand and place an apple on the chopping board")
+
+#steps 11,12,13
+
+knife_angle = 20 #degrees
+apple_pieces = 8
+grape_count = 20
+strawberries_count = 5
+force_apple = 9.81 #newtons
+grape_pieces = 2 #for each grape
+force_grape = 1.96 #newtons
+strawberry_pieces = 2 #for each strawberry
+force_strawberry = 1.96 #newtons
+
+
+print(f"cut apple into {apple_pieces} pieces using the knife holding {knife_angle} degrees and using force of {force_apple} newtons and place the slices into bowl")
+
+for i in range(grape_count):
+    print(f"cut the grapes {i+1} into {grape_pieces} using knife at {knife_angle} degrees with force of {force_grape} newtons and place it in the bowl")
+    
+for i in range(strawberries_count):
+    print()f"cut the strawberries {i+1} into {strawberry_pieces} using knife at {knife_angle} degrees with force of {force_strawberry} newtons and place it in the bowl")"
+
+
+#step 14, 15
+
+salt_shakes = 10
+weight_salt_per_shake = 0.2
+masala_shakes = 10
+weight_masala_per_shake = 0.3
+
+total_weight_of_salt = weight_salt_per_shake * salt_shakes
+total_weight_of_masala = weight_masala_per_shake * masala_shakes
+
+print(f"sprinkle the salt {salt_shakes} times to add {total_weight_of_salt} gms of salt")
+print(f"sprinkle the masala {masala_shakes} times to add {total_weight_of_masala} gms of salt")
+
+#steps 17,18,19
+
+speed_mixing = 0.5 #m/s
+time_take_for_mixing = 20 #seconds
+print(f"Mix the fruits in a circular motion at {speed_mixing} m/s for {time_take_for_mixing} seconds")
+
+radius_small_bowl = 7.5 #cms
+print(f"use the sppon to transfer the salad into small bowl with radius of {radius_small_bowl}cms")
+
+print("serve the salad")
