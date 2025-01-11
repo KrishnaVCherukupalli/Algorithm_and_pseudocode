@@ -1,0 +1,26 @@
+How to make a fruit salad?
+
+ALGORITHM
+
+Step 1: Take a bowl which is circle shaped and has the diameter of 30cms.
+Step 2: rotate the tap 180 degrees in the anti clockwise direction for 5 times to open the water.
+Step 3: place the bowl under the running tap with the pressure of 807.45 Pa for 5 seconds and fill 500 millilitres of water.
+Step 4: rotate the tap in 180 degrees clockwise direction 5 times to turn of the water.
+Step 5: Take 1 apple with weighing 120 grams, 20 seedles green grapes, 5 strawberries.
+step 6: put 1 apple, 20 seedles green grapes, 5 strawberries into the circular bowl.
+step 7: remove 1 apple, 20 seedles green grapes, 5 strawberries from the circular bowl.
+step 8: remove the water by holding the bowl and tilting it at 60 degrees near the tap.
+step 9: Take a wooden cutting board with the dimensions of 30cms in length, 40cms in width and 2cms in height and place it on the desk.
+step 10: take the knife in hand and place an apple on the chopping board. 
+step 11: cut the apple with  holding the knife at 20 degrees  with 9.81 Newtons at 20 degrees with force of  slicing the apple into 8 pieces and place those pieces in the bowl.
+step 12: cut the 20 grapes with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 40 pieces and place them in the bowl.
+step 13: cut the 5 strawberries with holding the knife at 20 degrees using 1.96 Newtons of force into 2 pieces each making it 10 pieces and place them in the bowl.
+step 14: take the salt shaker in hand and sprinkle it over the chopped fruits 10 times to get 2 grams of salt.
+step 15: take the masala shaker in hand and sprinkle it over the chopped fruits 15 times to get 3 grams of salt.
+step 16: take the spoon in hand and place it in the bowl 
+step 17: mix the fruits with moving the spoon in circular motion with the speed 0.5 metres per second to complete the mixing in 20 seconds.
+step 18: take a small bowl with radius of 7.5 cms and with help of spoon transfer the salad into small bowl.
+step 19: serve it
+
+
+
